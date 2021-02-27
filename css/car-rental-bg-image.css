@@ -1,8 +1,8 @@
-div#car-rental-bg-image-cover::before {
+section#car-rental-bg-image-cover::before {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-div#car-rental-bg-image-cover {
+section#car-rental-bg-image-cover {
     background-image: url("../img/jpg/AutoMain.jpg");
     background-size: cover;
     background-repeat: no-repeat;
