@@ -8,3 +8,10 @@ section#car-rental-bg-image-cover {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+section#car-rental-bg-image-mustang {
+    background-image: url("../img/jpg/AutoCover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
