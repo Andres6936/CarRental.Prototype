@@ -15,3 +15,10 @@ section#car-rental-bg-image-mustang {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+section#car-rental-bg-image-sedan {
+    background-image: url("../img/jpg/Sedan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
