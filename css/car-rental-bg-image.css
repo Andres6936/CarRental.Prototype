@@ -8,9 +8,16 @@ section#car-rental-bg-image-cover {
 
 /*
  * Added a new layer of opacity to cover image
+ *
+ * By apply ::before or ::after to an element,
+ * you can insert a dynamic element into the DOM
+ * before or after the selected elements children.
  */
 section#car-rental-bg-image-cover::before {
     background-color: rgba(0, 0, 0, 0.7);
+    /* One important note, all pseudo-elements require a content
+       CSS property to display. In our case, this will just be
+       a blank string. */
     content: '';
     width: 100%;
     height: 100%;
