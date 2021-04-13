@@ -1,12 +1,29 @@
-section#car-rental-bg-image-cover::before {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
 section#car-rental-bg-image-cover {
     background-image: url("../img/jpg/AutoMain.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    position: relative;
+}
+
+/*
+ * Added a new layer of opacity to cover image
+ */
+section#car-rental-bg-image-cover::before {
+    background-color: rgba(0, 0, 0, 0.7);
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*
+ * Avoid that the element inside of div had opacity
+ */
+section#car-rental-bg-image-cover > * {
+    position: relative;
 }
 
 section#car-rental-bg-image-mustang {
